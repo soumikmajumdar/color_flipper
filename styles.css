@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizingsizing: border-box;
+    font-size: 16px;
+    font-family: KoHo;
+}
+
+.white {
+    color: white;
+}
+
+.flex-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav {
+    min-height: 8vh;
+    background: rgb(52, 54, 57);
+}
+
+.nav #nav-brand {
+    letter-spacing: .3rem;
+}
+
+.nav .nav-items {
+    width: 20%;
+}
+
+.nav .nav-items li {
+    list-style: none;
+}
+
+.nav-items li a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: .2rem;
+    font-weight: 800;
+}
+
+.flex-box-2 {
+    display: flex;
+    min-height: 92vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #F1F5F8;
+}
+
+#color-info {
+    background: #1A181A;
+    min-width: 5em;
+    border-radius: 20px;
+    padding: 1em 1em;
+    text-align:center;
+}
+
+#color-info h1 {
+    font-size: 1.7rem;
+    letter-spacing: .2em;
+}
+
+#color-info h1 span {
+    color: #56ABDC;
+    font-size: 1.5rem;
+}
+
+.main-body .button button {
+    font-size: 1rem;
+    padding: .5em 1em;
+    margin-top: 2em;
+    border: none;
+    font-weight: bold;
+    background: #bbc7d0;
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: .4em;
+
+}
+
+.main-body .button button:hover {
+    box-shadow: 0 0 20px rgba(250, 235, 255, 0.25);
+    cursor: pointer;
+}
+
+
+@media (max-width: 550px) {
+
+    #color-info h1 {
+        font-size: 1.4rem;
+    }
+
+    #color-info h1 span {
+        font-size: 1rem;
+    }
+
+    .main-body .button button {
+        font-size: .8rem;
+
+
+    }
+}
